@@ -1,0 +1,52 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: honeydew;
+    font-size: 20px;
+    
+}
+
+header {
+    height: 150px;
+    position:relative;
+    padding-top: 20px;
+
+}
+
+h1 {
+    margin-top: 65px;
+    margin-left: 10px;
+
+}
+
+main {
+    overflow: auto;
+    height: 600px;
+
+}
+
+.picFloatLeft {
+   width: 250px;
+   height: 250px;
+   float: left;
+   margin: 4px; 
+   padding: 5px;
+}
+
+#aboutMe{
+    font-size: 800%;
+}
+
+footer {
+    border: red dashed;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.btn {
+    margin-left: 10px;
+}
+
+#wrapper {
+    background-image: url(../images/greens_bg.jpg);
+
+}
