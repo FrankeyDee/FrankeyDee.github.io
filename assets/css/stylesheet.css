@@ -1,15 +1,14 @@
 body {
     font-family: 'Quicksand', sans-serif;
     color: honeydew;
-    font-size: 20px;
-    
+    font-size: 150px;
+    background: url(../images/plumeriaway.jpg) no-repeat center center fixed;
 }
 
 header {
     height: 150px;
     position:relative;
     padding-top: 20px;
-
 }
 
 h1 {
@@ -21,7 +20,8 @@ h1 {
 main {
     overflow: auto;
     height: 600px;
-
+    margin-left: 10px;
+    padding-left: 10px;
 }
 
 .picFloatLeft {
@@ -36,8 +36,12 @@ main {
     font-size: 800%;
 }
 
+#psyGame {
+    overflow: scroll;
+    border-style: groove;
+}
+
 footer {
-    border: red dashed;
     height: 100px;
     margin-top: 20px;
 }
@@ -46,7 +50,12 @@ footer {
     margin-left: 10px;
 }
 
-#wrapper {
-    background-image: url(../images/greens_bg.jpg);
+.card {
+    margin-right: 20px;
+    align-content: center;
+}
 
+.portfolio {
+    display: flex;
+    
 }
