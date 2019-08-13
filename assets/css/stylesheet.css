@@ -2,19 +2,43 @@ body {
     font-family: 'Quicksand', sans-serif;
     color: honeydew;
     font-size: 150px;
-    background: url(../images/plumeriaway.jpg) no-repeat center center fixed;
+    background: url(../images/cpatrickbg.jpg) fixed;
 }
 
 header {
-    height: 150px;
-    position:relative;
-    padding-top: 20px;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    margin: 2%;
+    font-family: 'Permanent Marker', cursive;
 }
 
 h1 {
     margin-top: 65px;
     margin-left: 10px;
 
+}
+
+/* Links */
+a {
+    color: #fa9539;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  a:active {
+    color: #fa9539;
+  }
+  
+  a:visited {
+    color: #fa9539;
+  }
+
+.btn {
+    margin-left: 10px;
 }
 
 main {
@@ -24,18 +48,22 @@ main {
     padding-left: 10px;
 }
 
-.picFloatLeft {
-   width: 250px;
-   height: 250px;
-   float: left;
-   margin: 4px; 
-   padding: 5px;
+.portfolio {
+    display: flex;
+    
 }
 
-#aboutMe{
-    font-size: 800%;
+.card {
+    margin-right: 20px;
+    align-content: center;
 }
 
+footer {
+    height: 100px;
+    margin-top: 20px;
+}
+
+/*Portfolio Image IDs*/
 #psyGame {
     overflow: scroll;
     border-style: groove;
@@ -58,21 +86,6 @@ main {
 
 
 
-footer {
-    height: 100px;
-    margin-top: 20px;
-}
 
-.btn {
-    margin-left: 10px;
-}
 
-.card {
-    margin-right: 20px;
-    align-content: center;
-}
 
-.portfolio {
-    display: flex;
-    
-}
