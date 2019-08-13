@@ -1,7 +1,7 @@
 body {
     font-family: 'Quicksand', sans-serif;
     color: honeydew;
-    font-size: 150px;
+    font-size: 120%;
     background: url(../images/cpatrickbg.jpg) fixed;
 }
 
@@ -11,56 +11,70 @@ header {
     padding-bottom: 1%;
     margin: 2%;
     font-family: 'Permanent Marker', cursive;
+
 }
 
 h1 {
-    margin-top: 65px;
-    margin-left: 10px;
+    margin-top: 5%;
+    margin-left: 1%;
 
 }
 
 /* Links */
-a {
+div a {
     color: #fa9539;
     text-decoration: none;
   }
-  
   a:hover {
     color: white;
   }
-  
-  a:active {
-    color: #fa9539;
-  }
-  
   a:visited {
     color: #fa9539;
   }
 
 .btn {
-    margin-left: 10px;
+    margin-left: 2%;
+    size: 100%;
 }
 
 main {
     overflow: auto;
-    height: 600px;
-    margin-left: 10px;
-    padding-left: 10px;
+    margin: 2%;
+    padding: 1%;
 }
 
 .portfolio {
     display: flex;
-    
+    padding: 0%;
+    border-top: 0%;
+    margin-top: 0%;
+    margin-left: 2%;
+    margin-right: 0%;
 }
 
 .card {
-    margin-right: 20px;
-    align-content: center;
+    margin-right: 4%;
+    margin-top: 0%;
+    padding-top: 0%;
+    border-top: 0%;
 }
 
 footer {
-    height: 100px;
-    margin-top: 20px;
+    height: 2%;
+    margin-top: 1%;
+}
+
+.aboutMe {
+    background-color: rgba(242, 176, 95, 0.8);
+    padding: 1%;
+    font-size: 200%;
+    font-weight: 200;
+    float: none;
+    font-family: 'Abel', sans-serif;
+    padding-right: 2%;
+    white-space: normal;
+    color: black;
+
 }
 
 /*Portfolio Image IDs*/
@@ -84,8 +98,25 @@ footer {
     border-style: groove;
 }
 
+#profpic {
+    float: left;
+    padding:0%;
+    padding-right:1%;
+    margin-left:1%;
+    margin-bottom: 1%;
+    border: 0%;
+}
 
+.card-header {
+    font-weight: 500;
+    font-size: 200%;
+}
 
+.card-text {
+    font-size: 150%;
+    text-align: left;
+}
 
-
-
+.link {
+    font-size: 5%;
+}
