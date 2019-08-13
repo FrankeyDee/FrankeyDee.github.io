@@ -41,6 +41,23 @@ main {
     border-style: groove;
 }
 
+#crysGame {
+    overflow: scroll;
+    border-style: groove;
+}
+
+#trivGame {
+    overflow: scroll;
+    border-style: groove;
+}
+
+#gifTastic {
+    overflow: scroll;
+    border-style: groove;
+}
+
+
+
 footer {
     height: 100px;
     margin-top: 20px;
