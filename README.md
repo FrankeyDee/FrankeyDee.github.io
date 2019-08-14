@@ -1,3 +1,3 @@
 My Portfolio [August 2019]
 
-http://www.FrankeyDee.github.io
+http://FrankeyDee.github.io
