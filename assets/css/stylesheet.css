@@ -173,12 +173,13 @@ main {
 
 .portfolio {
     display: flex;
-    padding: 0%;
+    padding-left: 5%;
     border-top: 0%;
     margin-top: 0%;
     margin-left: 2%;
     margin-right: 0%;
     font-size: small;
+    align-items: center;
 }
 
 .card {
