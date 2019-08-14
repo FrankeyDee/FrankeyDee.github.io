@@ -1,3 +1,119 @@
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
     color: honeydew;
@@ -11,6 +127,17 @@ header {
     padding-bottom: 1%;
     margin: 2%;
     font-family: 'Permanent Marker', cursive;
+
+}
+
+.card-header {
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+
+.display-3 {
+  font-family: 'Permanent Marker', cursive;
 
 }
 
@@ -50,6 +177,7 @@ main {
     margin-top: 0%;
     margin-left: 2%;
     margin-right: 0%;
+    font-size: small;
 }
 
 .card {
@@ -67,8 +195,7 @@ footer {
 .aboutMe {
     background-color: rgba(242, 176, 95, 0.8);
     padding: 1%;
-    font-size: 200%;
-    font-weight: 200;
+    font-size: 150%;
     float: none;
     font-family: 'Abel', sans-serif;
     padding-right: 2%;
@@ -78,19 +205,25 @@ footer {
 }
 
 /*Portfolio Image IDs*/
-#psyGame {
-    overflow: scroll;
-    border-style: groove;
+#grpProj {
+  overflow: scroll;
+  border-style: groove;
+  width: 200px;
+  height: 200px;
 }
 
 #crysGame {
     overflow: scroll;
     border-style: groove;
+    width: 200px;
+    height: 200px;
 }
 
 #trivGame {
-    overflow: scroll;
-    border-style: groove;
+  overflow: scroll;
+  border-style: groove;
+  width: 200px;
+  height: 200px;
 }
 
 #gifTastic {
@@ -104,7 +237,22 @@ footer {
     padding-right:1%;
     margin-left:1%;
     margin-bottom: 1%;
-    border: 0%;
+
+}
+
+#gradPic {
+  float: right;
+  padding: 1%;
+  margin-left: 1%;
+  border-left: 1%;
+}
+
+#cookies {
+  width: 25%;
+  height: 40%;
+  float: left;
+  padding: 1%;
+  margin-right: 1%;
 }
 
 .card-header {
@@ -119,4 +267,22 @@ footer {
 
 .link {
     font-size: 5%;
+    position: bottom;
+
+}
+
+.icon {
+  width: 10%;
+  height: 10%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border:2%;
+}
+
+.contact {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: large;
+  align-content: center;
 }
