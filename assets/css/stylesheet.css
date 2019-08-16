@@ -294,3 +294,8 @@ footer {
   font-size: large;
   align-content: center;
 }
+
+.icon-links {
+  margin-left: 20%;
+  padding-left: 5%;
+}
