@@ -1,54 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="./assets/css/stylesheet.css">
-        <link href="https://bootswatch.com/4/lumen/bootstrap.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Abel|Permanent+Marker&display=swap" rel="stylesheet">
-        <script src="/assets/javascript/portfolio.js"></script>
-        <title>Frankey Dee</title>
+    <title>Frankey Dee - Los Angeles, CA</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet'
+        type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+        integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+        crossorigin="anonymous"></script>
+
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet">
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
+    <!-- github acitivity css -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
 </head>
-  
+
 <body>
-  <div id="wrapper">
-    <header>
-      <h1 id="name"><a href='index.html'>Frankey D</a></h1><br>
-        <a href='index.html'><button type="button" class="btn btn-outline-info" width=300%>About</button></a>
-        <a href='portfolio.html'><button type="button" class="btn btn-outline-info">Portfolio</button></a>
-        <a href='contact.html'><button type="button" class="btn btn-outline-info">Contact</button></a>
+    <!-- ******HEADER****** -->
+    <header class="header">
+        <div class="container clearfix">
+            <img class="profile-image img-fluid float-left" height="180" width="180" src="assets/images/profile.png"
+                alt="Frankey D" />
+            <div class="profile-content float-left">
+                <h1 class="name">Frankey D</h1>
+                <h2 class="desc">Web Developer</h2>
+                <ul class="social list-inline">
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/frankeydee/" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/FrankeyDee" target="_blank"><i
+                                class="fab fa-github-alt"></i></a></li>
+                    <li class="list-inline-item last-item"><a href="https://frankeydee.wordpress.com/"
+                            target="_blank"><i class="fab fa-wordpress"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.twitter.com/FrankeySays/" target="_blank"><i
+                                class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/frankeyd33/" target="_blank"><i
+                                class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
     </header>
-    
-    <main>
-      <div class="aboutMe">
 
-        <img id='profpic' src="./assets/images/Profile pic.jpg" alt="May 2019"/>
-        <p id='bio'>My name is Frances, but you can call me Frankey. I'm currently a project manager for a market research firm and have been in the market research industry for the last 6 years. As a project manager, I have been able to exercise and hone my ability to study and understand several different industries. Being a part of a consulting firm, my clients' main industries have ranged from retail, apparel, food and automotive to name a few. By far, however, the most interesting industry I have encountered is Tech.
-        </p>
-        <img id='gradPic' src="./assets/images/grad.jpg" alt="Graduation - 2019"/>
-        <p>
-        My undergraduate studies were focused on Family and Consumer Sciences, with a focus on Consumer Affairs. My studies revolved around consumer behavior and both psychological and socioeconomic drivers behind their behavior. My first job after gaining my Bachelor's degree would be as an entry-level customer support agent for an up and coming rewards website. I was able to extend my research and focus on interacting with a specific type of consumer: the website user. For two and a half years I learned first-hand about the most common problems our users experienced and in turn what technical solutions could be offered to the users as well as technical solutions created on the back end. The company was a start-up in Silicon Beach and I joined the team about 1 year before the parent company experienced its first external investment. I went on to gain more proficiency in the culture and collaborating with our web developers, becoming a bridge between the tech and user experience by becoming the official company Facebook moderator, no longer interacting privately in Zendesk Tickets, but publicly to a number of users at a time.
-      </p>
-      <img id="cookies" src="./assets/images/cookies.jpg" alt="Lemon Rosemary Butter Cookies"/>
-      <p>  
-        My interests turned slightly away from tech as I further explored consumer behavior from a marketing stand-point. I entered the Market Research industry as a junior project manager for a company that 'supplied' quantitative studies with participants. The main focus, again, were participants joining through on-line panels. 5 years later and I am now a project manager at my 2nd market research company, where I specialize in both quantitative and qualitative studies. My studies/projects are fielded both on-line through a network of platforms where users can virtually interact as part of a research panel as well as through more traditional means of surveying (i.e. in-person focus groups, in-home user tests, and more).
-        </p>
-        <img id="lego" src="./assets/images/legocapitol.JPG" alt="The Capitol in Lego form" />
-        <p>
-        In the past year I have gotten married, moved into our first home in the San Fernando Valley and began attending a full-stack bootcamp through the UCLA Extension program. I have further polished my HTML and CSS skills, while learning about Javascript, Firebase, APIs and jQuery in the most recent months. I continue to attend this bootcamp through the end of 2019, now encountering lessons on back-end coding, specifically MongoDB, Express.js, Node.js and React. My goal is to successfully pivot my career to be more tech-centered. I am driven by my fascination with building tools that solve the unique and ever-evolving needs of the modern consumer. I believe that my background in market research and my motivation to create and find solutions are the driving forces that will allow my time at this full-stack bootcamp to be my first big step towards a long and successful career in Tech. 
-        </p>
-        <p>
-        Aside from coding, I also enjoy a variety of creative activities such as building with Legos, sketching, paper quilling, playing the piano, and cooking. 
-        </p>
-      </div>
-    </main>
+    <!-- *****MAIN BODY****** -->
+    <div class="container sections-wrapper">
+        <div class="row">
 
-    <footer></footer>
-  </div>
-  <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>    
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>My name is Frances, but you can call me Frankey. I'm currently a project manager for a
+                                market research firm and have been in the market research industry for the last 6 years.
+                            </p>
+                            <p><img class='picture' id='gradPic' src="./assets/images/grad.jpg" height="180"
+                                    alt="Graduation - 2019" />
+                                My undergraduate studies were focused on Family and Consumer Sciences, with a focus on
+                                Consumer Affairs. My studies revolved around consumer behavior and both psychological
+                                and socioeconomic drivers behind their behavior. My first job after gaining my
+                                Bachelor's degree would be as an entry-level customer support agent for an up and coming
+                                rewards website. I was able to extend my research and focus on interacting with a
+                                specific type of consumer: the website user. For two and a half years I learned
+                                first-hand about the most common problems our users experienced and in turn what
+                                technical solutions could be offered to the users as well as technical solutions created
+                                on the back end. I went on to gain more proficiency in the culture and collaborating
+                                with our web developers, becoming a bridge between the tech and user experience by
+                                becoming the official company Facebook moderator, no longer interacting privately in
+                                Zendesk Tickets, but publicly to a number of users at a time.
+                            </p>
+                            <p><img class='picture' id="cookies" src="./assets/images/cookies.jpg" height="180"
+                                    alt="Lemon Rosemary Butter Cookies" />
+                                My interests turned slightly away from tech as I further explored consumer behavior from
+                                a marketing stand-point. In 2015, I entered the Market Research industry as a junior
+                                project manager for a company that 'supplied' quantitative studies with participants. 5
+                                years later and I am now a project manager at my 2nd market research company, where I
+                                specialize in both quantitative and qualitative research. My studies/projects are
+                                fielded both on-line as well as through more traditional means of surveying (i.e.
+                                in-person focus groups, in-home user tests, and more).
+                            </p>
+                            <p>In the past year I have gotten married, moved into our first home in the San Fernando
+                                Valley and began attending a full-stack bootcamp through the UCLA Extension program. I
+                                have further polished my HTML and CSS skills, while learning about Javascript, Firebase,
+                                APIs and jQuery in the most recent months. I continue to attend this bootcamp through
+                                the end of 2019, now encountering lessons on back-end coding, specifically MongoDB,
+                                Express.js, Node.js and React. My goal is to successfully pivot my career to be more
+                                tech-centered.
+                                <img class='picture' id="lego" src="./assets/images/legocapitol.JPG" height="180"
+                                    alt="The Capitol in Lego form" />
+                                I am driven by my fascination with building tools that solve the unique and
+                                ever-evolving needs of the modern consumer. I believe that my background in market
+                                research and my motivation to create and find solutions are the driving forces that will
+                                allow my time at this full-stack bootcamp to be my first big step towards a long and
+                                successful career in Tech.
+                            </p>
+                            <p>Aside from coding, I also enjoy a variety of creative activities such as building with
+                                Legos, sketching, paper quilling, playing the piano, and cooking.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="projects section">
+                    <div class="section-inner">
+                        <h2 class="heading">Projects</h2>
+                        <div class="content">
+
+                            <div class="project-item">
+                                <h3 class="title">Ani-Mate</h3>
+                                | <a href="https://projectfvs.herokuapp.com/" target="_blank">Link</a>
+                                | <a href="https://github.com/FrankeyDee/Ani-Mate" target="_blank">GitHub</a>
+                                | <p class="summary">Ani-Mates is a lighthearted app which allows you to get matched up
+                                    with your perfect pet, based on questions you answer about what you want in a pet.
+                                </p>
+                                <ul class="content">Tech Used
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                    <li>jQuery</li>
+                                    <li>NodeJS</li>
+                                    <li>Express</li>
+                                    <li>Travic CI</li>
+                                    <li>MySQL</li>
+                                </ul>
+                            </div>
+
+                            <div class="project-item">
+                                <h3 class="title">Date Night</h3>
+                                | <a href="https://frankeydee.github.io/DateNight1.0/" target="_blank">Link</a>
+                                | <a href="https://github.com/FrankeyDee/DateNight1.0" target="_blank">GitHub</a>
+                                | <p class="summary">Date Night is an app that will allow the user to set last minute
+                                    plans for a date including restaurants and events in a specific area.</p>
+                                <ul class="content">Tech Used
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                    <li>jQuery</li>
+                                </ul>
+                            </div>
+
+                            <div class="project-item">
+                                <h3 class="title">LIRI</h3>
+                                | <a href="https://github.com/FrankeyDee/liri-node-app" target="_blank">Link</a>
+                                | <a href="https://github.com/FrankeyDee/liri-node-app" target="_blank">GitHub</a>
+                                | <p class="summary">LIRI bot is a Language Interpretation and Recognition Interface.
+                                    This allows users to search for concerts, songs and movies.</p>
+                                <ul class="content">Tech Used
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                    <li>NodeJS</li>
+                                    <li>NPM, Node packages: Moment, Axios, DotEnv</li>
+                                    <li>Bands In Town API</li>
+                                    <li>OMDB API</li>
+                                </ul>
+                            </div>
+
+                            <div class="project-item">
+                                    <h3 class="title">Bob's Trivia</h3>
+                                    | <a href="https://frankeydee.github.io/TriviaGame/" target="_blank">Link</a>
+                                    | <a href="https://github.com/FrankeyDee/TriviaGame" target="_blank">GitHub</a>
+                                    | <p class="summary">How much do you know about the Belcher Family? Try your hand at a Bob's Burger's Trivia Game.</p>
+                                <ul class="content">Tech Used
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                    <li>jQuery</li>
+                                </ul>
+                            </div>
+
+                            <div class="project-item">
+                                    <h3 class="title">GIF-tastic</h3>
+                                    | <a href="https://frankeydee.github.io/GIFTastic/" target="_blank">Link</a>
+                                    | <a href="https://github.com/FrankeyDee/GIFtastic" target="_blank">GitHub</a>
+                                    | <p class="summary">Click on the images to animate GIFs. You can even add your own! This project's main purpose was to utilize API calls.</p>
+                                <ul class="content">Tech Used
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                </ul>
+                            </div>
+
+                            <div class="project-item">
+                                    <h3 class="title">Crystal Collector</h3>
+                                    | <a href="https://frankeydee.github.io/Crystals-Game/" target="_blank">Link</a>
+                                    | <a href="https://github.com/FrankeyDee/Crystals-Game" target="_blank">GitHub</a>
+                                    | <p class="summary">Click on the crystals to reach the winning score! jQuery used for the
+                                    functions of adding points from clicks and updating scoreboard.</p>
+                                <ul class="content">Tech Used
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                    <li>jQuery</li>
+                                </ul>
+                                <br>
+                            </div>
+
+
+                            <a class="btn btn-cta-secondary" href="https://github.com/FrankeyDee" target="_blank"> More
+                                on GitHub <i class="fas fa-chevron-right"></i></a>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Co-Founder & Lead Developer - <span class="place"><a href="#">Startup
+                                            Hub</a></span> <span class="year">(2014 - Present)</span></h3>
+                                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
+                                    ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
+                                    varius laoreet. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
+                                    Etiam sit amet orci eget eros faucibus tincidunt.</p>
+                            </div>
+
+                            <div class="item">
+                                <h3 class="title">Software Engineer - <span class="place"><a href="#">Google</a></span>
+                                    <span class="year">(2013 - 2014)</span></h3>
+                                <p>Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci
+                                    eu suscipit pellentesque, mauris dui tincidunt enim. Sed fringilla mauris sit amet
+                                    nibh. Donec sodales sagittis magna.</p>
+                            </div>
+
+
+                            <div class="item">
+                                <h3 class="title">Software Engineer - <span class="place"><a href="#">eBay</a></span>
+                                    <span class="year">(2012 - 2013)</span></h3>
+                                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet
+                                    adipiscing sem neque sed ipsum.</p>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </section>
+                <section class="github section">
+                    <div class="section-inner">
+                        <h2 class="heading">My GitHub</h2>
+                        <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a
+                                href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub
+                                Calendar</a> widget.
+
+                            <div id="github-graph" class="github-graph">
+
+                            </div>
+
+
+                            <p>You can also embed your GitHub activities using Casey Scarborough's <a
+                                    href="https://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub
+                                    Activity Stream</a> widget.
+
+                                <div id="ghfeed" class="ghfeed">
+                                </div>
+
+
+                    </div>
+
+                </section> -->
+            </div>
+
+            <div class="secondary col-lg-4 col-12">
+                <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Los Angeles, US</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a
+                                        href="mailto:frankeydarban@gmail.com">frankeydarban@gmail.com</a></li>
+                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a
+                                        href="http://FrankeyDee.github.io">http://FrankeyDee.github.io</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </aside>
+
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                A list of my primary web developer skills thus far.</p>
+
+                            <div class="skillset">
+
+                                <div class="item">
+                                    <h3 class="level-title"> HTML5, CSS3 <span class="level-label" data-toggle="tooltip" data-placement="left"
+                                            data-animation="true">
+                                            Advanced</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="75%">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <h3 class="level-title"> Javascript & jQuery <span class="level-label" data-toggle="tooltip" data-placement="left"
+                                            data-animation="true">
+                                            Intermediate</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="65%">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <h3 class="level-title"> Node.js & MySQL <span class="level-label" data-toggle="tooltip" data-placement="left"
+                                            data-animation="true">
+                                            Intermediate</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="60%">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="item">
+                                    <h3 class="level-title"> Express <span class="level-label" data-toggle="tooltip" data-placement="left"
+                                            data-animation="true">
+                                            Intermediate</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="65%">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <h3 class="level-title"> MongoDB <span class="level-label" data-toggle="tooltip" data-placement="left"
+                                            data-animation="true">
+                                            Novice</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="25%">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <p><a class="more-link" href="https://www.linkedin.com/in/frankeydee/"><i class="fas fa-external-link-alt"></i>More on
+                                        Linkedin</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <aside class="testimonials aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Testimonials</h2>
+                        <div class="content">
+                            <!-- Quote 1 -->
+                            <div class="item">
+                                <blockquote class="quote">
+                                    <p><i class="fas fa-quote-left"></i>Her creative energy offers motivation and solutions that are relative to the big picture. She would be an asset to any company she is with.</p>
+                                </blockquote>
+                                <p class="source"><span class="name">Kristie Leach</span><br /><span class="title">VP Customer Success & Operations at PRODEGE, LLC</span></p>
+                            </div>
+
+                            <!-- Quote 2 -->
+                            <div class="item">
+                                    <blockquote class="quote">
+                                        <p><i class="fas fa-quote-left"></i>Frankey really helped elevate our operations to set us up for success.</p>
+                                    </blockquote>
+                                    <p class="source"><span class="name">Guy Horton</span><br /><span class="title">Sr. Strategist & Design Researcher</span></p>
+                                </div>
+
+                            <p><a class="more-link" href="https://www.linkedin.com/in/frankeydee/" target="_blank"><i class="fas fa-external-link-alt"></i>More on
+                                    Linkedin</a></p>
+
+                        </div>
+                    </div>
+                </aside>
+
+                <aside class="education aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BA Consumer Sciences</h3>
+                                <h4 class="university">California State University, Long Beach <span class="year">(2012)</span>
+                                </h4>
+                            </div>
+
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Full-Stack Web Development</h3>
+                                <h4 class="university">University of California, Los Angeles - Extension Program <span class="year">(Currently Attending)</span></h4>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </aside>
+
+                <aside class="languages aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Native Speaker <br class="visible-xs" /><i
+                                            class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                                            class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                                            class="fas fa-star"></i> </span>
+                                </li>
+
+                                <li class="item">
+                                    <span class="title"><strong>Tagalog/Filipino:</strong></span>
+                                    <span class="level">Fluent <br class="visible-sm visible-xs" /><i
+                                            class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                                            class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </aside>
+
+                <aside class="list music aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Favourite coding music</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-headphones"></i> <a href="https://open.spotify.com/playlist/37i9dQZF1DX4GMJS146m00?si=SPyBSaKISg2Hihf77srRlw" target="_blank">Workday Soul</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="https://open.spotify.com/playlist/37i9dQZF1DX3MU5XUozve7?si=vTD9Fd6STgK3veSrLO46aQ" target="_blank">Skaterpark Punks</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="https://open.spotify.com/playlist/37i9dQZF1DWUraJYejk11q?si=YbDpHxukThexvfL7K0wZaw" target="_blank">Genre Glitch</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO1e2vg0?si=rxRwt7kURuCXSe46qyb73Q" target="_blank">This is Snail's House</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/vaadin" title="Vaadin">Vaadin</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div> -->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
+
 </html>
