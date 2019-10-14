@@ -9,12 +9,19 @@ body {
   background-image: url("../images/greens_bg.jpg");
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: 700;
   color: #778492;
 }
 
+h5 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 250;
+  color: #778492;
+  font-size: large;
+  font-style: italic;
+}
 
 a:hover {
   text-decoration: underline;
@@ -24,6 +31,10 @@ a:hover {
 
 a:focus {
   text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .btn, a.btn {
@@ -191,17 +202,6 @@ a.dotted-link:hover {
 /* About Section */
 
 /* Projects Section */
-.projects .item {
-  margin-bottom: 30px;
-}
-
-.projects .item .title {
-  font-size: 16px;
-  margin-top: 0;
-  margin-bottom: 5px;
-  line-height: 1.5;
-}
-
 .projects .item .title a {
   color: #fd93e0;
 }
@@ -209,6 +209,24 @@ a.dotted-link:hover {
 .projects .item .title a:hover {
   color: #5f6b77;
 }
+
+.proj-summary {
+  font-size: 15px;
+}
+.proj-tech {
+  font-size: 15px;
+  text-align: left;
+}
+.proj-img {
+  width: 400px;
+  height: 250px;
+  color: #5f6b77;
+  float: right;
+  border-color: salmon;
+}
+
+
+
 
 /* Work Section */
 .experience .item {
