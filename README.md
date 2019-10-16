@@ -1,6 +1,4 @@
 
-problem,
-how you solved it, and some information about your technical approach
 
 http://FrankeyDee.github.io
 
